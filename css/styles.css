@@ -1,0 +1,39 @@
+.white-header {
+    color: white;
+}
+.flex-one {
+    display: flex;
+}
+
+.item {
+    text-align: center;
+    flex: 1;
+}
+
+.one {
+    align-self: center;
+    font-family: 'Heebo', sans-serif;
+}
+
+.dog { 
+    align-self: center;
+    margin-bottom: -80px;
+}
+
+.door {
+    margin-left: -210px;
+}
+
+.download-btn {
+    margin-top: 30px;
+    margin-left: -40px;
+}
+
+.navigation {
+    display:flex;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+
