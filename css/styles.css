@@ -1,3 +1,7 @@
+#title{
+    background-color:rgb(103,75,255);
+}
+
 .white-header {
     color: white;
 }
@@ -38,4 +42,22 @@
 #features {
     margin-top: 100px;
     text-align: center;
+}
+
+.press-icons{
+    display: flex;
+}
+
+.mtv {
+   align-self: center;
+   justify-content: center;
+   flex: 1;
+   text-align: center;
+}
+
+.testimonials-section {
+    background-color:rgb(103,75,255);
+}
+.carousel-inner{
+    margin: auto;
 }

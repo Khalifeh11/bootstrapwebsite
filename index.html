@@ -17,19 +17,19 @@
 
 <body>
 
-  <section id="title" class="container" style="background-color: rgb(115, 68, 245);">
+  <section id="title" class="container">
 
     <!-- Nav Bar -->
-
+    <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container navigation">
-          <a href="#" class="navbar-brand">My App</a>
+          <a href="#" class="navbar-brand"><b>My App</a>
           <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
               <div class="navbar-nav">
-                  <a href="#" class="nav-item nav-link active">Home</a>
+                  <a href="#" class="nav-item nav-link active">Contact</a>
                   <a href="#" class="nav-item nav-link">Pricing</a>
                   <a href="#" class="nav-item nav-link">Downlaod</a>
               </div>
@@ -37,11 +37,14 @@
           </div>
       </div>
   </nav>
+</div>
 
 
 
 
     <!-- Title -->
+    
+    <div class="row">
     <div class="flex-one">
     <div class="item one col-md-6">
       <h1 class="white-header">Meet the dog next <div class="door">door.</div></h1>
@@ -51,9 +54,11 @@
     </div>
     </div>
     <div  class="item dog col-md-6">
-      <img src="images/app.png" width="50%" height="80%">
+      <img src="images/app.png" width="50%" height="80%" class="img-fluid">
     </div>
     </div>
+    </div>
+  
 
   </section>
 
@@ -65,20 +70,20 @@
     <div class="row">
       <div class="col-md-4">
     
-    <img src="/images/check-icon.png">
+    <img src="/images/check-icon.png" alt="check icon" height="50%">
     <h3>Feature1</h3>
     <p>Write soemthing here...</p>
     </div>
     
 
     <div class="col-md-4">
-    <img src="/images/target-icon.png">
+    <img src="/images/target-icon.png" alt ="target icon" height="50%">
     <h3>Feature2</h3>
     <p>Write soemthing here...</p>
     </div>
 
     <div class="col-md-4">
-      <img src="/images/heart-icon.png">
+      <img src="/images/heart-icon.png" alt="heart icon" height="50%">
     <h3>Feature3</h3>
     <p>Write soemthing here...</p>
     </div>
@@ -89,26 +94,75 @@
 
 
   <!-- Testimonials -->
-
-  <section id="testimonials">
-
-    <h2>Quote 1. Woof.</h2>
+  <div class="testimonials-section container">
+  <section id="testimonials" class="container">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Carousel indicators -->
+      <ol class="carousel-indicators">
+          <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+      </ol>
+  
+      <!-- Wrapper for carousel items -->
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>Quote 1. Woof.</h2>
     <img src="images/dog-img.jpg" >
     <em>Beirut, Lebanon</em>
-
-    <h2>Quote 2. Woof.</h2>
+              
+          </div>
+          <div class="carousel-item">
+            <h2>Quote 2. Woof.</h2>
     <img src="images/dog-img.jpg" >
     <em>Beirut, Lebanon</em>
+          </div>
+
+      </div>
+  
+      <!-- Carousel controls -->
+      <a class="carousel-control-prev" href="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </a>
+  </div>
+
+    
+
+    
 
   </section>
 
 
   <!-- Press -->
-
   <section id="press">
-    <img src="images/mtv-logo.png" >
-    <img src="images/lbci-logo.png" >
+  <div class="container">
+    <div class="row press-icons">
+      <div class="col mtv">
+        <img src="images/mtv-logo.png" height="60%" width="60%">
+      </div>
+      <div class="col lbci">
+        <img src="images/lbci-logo.png" >
+
+      </div>
+    </div>
+  </div>
   </section>
+</div>
+
+  
+    <!-- <div class="container">
+    <div class="row">
+    <div class="col">
+    <img src="images/mtv-logo.png" height="30%" width="30%">
+  </div>
+  <div "col">
+    <img src="images/lbci-logo.png" >
+  </div>
+  </div>
+  </div> -->
+  
 
 
   <!-- Pricing -->
