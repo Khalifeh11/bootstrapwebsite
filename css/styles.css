@@ -61,3 +61,8 @@
 .carousel-inner{
     margin: auto;
 }
+
+.package-title {
+    text-align: center;
+    padding-top: 5%;
+}
