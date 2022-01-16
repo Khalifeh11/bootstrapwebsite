@@ -59,21 +59,25 @@
 }
 
 .press-icons{
-    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 6%;
+}
+.mtv {
+    margin-right: -50%;
+    padding-top: 7%;
+    height: auto;
 }
 
-.mtv {
-   align-self: center;
-   justify-content: center;
-   flex: 1;
-   text-align: center;
-}
 
 .testimonials-section {
     background-color:rgb(103,75,255);
 }
-.carousel{
-  overflow:hidden;
+
+.carousel-item {
+    text-align: center;
+    padding: 100px;
+
 }
 
 .package-title {
@@ -125,4 +129,20 @@
     margin-top: 20px;
     color: rgba(14, 13, 13, 0.849);
     font-size: smaller;
+}
+
+.dog-img {
+    border-radius: 90%;
+    height: 10%;
+    width: 10%;
+}
+
+.quote {
+    margin-bottom: 5%;
+    font-weight: bolder;
+}
+
+.city {
+    color: white;
+    font-weight: lighter;
 }
