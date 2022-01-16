@@ -1,7 +1,11 @@
 #title{
     background-color:rgb(103,75,255);
 }
-
+#my-app {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 150%;
+}
 .white-header {
     color: white;
 }
@@ -26,17 +30,27 @@
 
 
 
-.download-btn {
+.download-btn-div {
     margin-top: 30px;
 
+}
+
+.download-btn {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    
 }
 
 .navigation {
     display:flex;
 }
+.navbar {
+    color: white;
+}
 
-.navbar-nav {
-    text-align: right;
+.navbar-brand {
+    margin-left: 10vh;
 }
 
 #features {
@@ -58,8 +72,8 @@
 .testimonials-section {
     background-color:rgb(103,75,255);
 }
-.carousel-inner{
-    margin: auto;
+.carousel{
+  overflow:hidden;
 }
 
 .package-title {
@@ -67,7 +81,48 @@
     padding-top: 5%;
 }
 
-.package-one {
-    text-align: center;
+.interesting-p {
+    font-weight: 400;
 }
 
+.package-one {
+    text-align: center;
+    font-weight: bold;
+}
+
+.app {
+    text-align: center;
+    margin-top: 10vh;
+    background-color: rgb(103,75,255);;
+}
+
+.app-need {
+    font-size: 280%;
+    font-family: 'Raleway', sans-serif;
+    font-stretch: expanded;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.app-content {
+    padding: 100px;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 10vh;
+    
+}
+
+.social {
+    color: rgba(14, 13, 13, 0.849);
+    margin-left: 40px;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(14, 13, 13, 0.849);
+    font-size: smaller;
+}
